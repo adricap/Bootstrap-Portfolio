@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Bootstrap </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+</head>
+
+<body style="background: scroll url(https://www.toptal.com/designers/subtlepatterns/patterns/new_year_background.png);">
+
+    <!--header-->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="col">
+            <a class="navbar-brand" href="index.html" style="background: teal; color: white; font-size: 48px;padding: 10px">Adriana Capriles</a>    
+        </div>
+        
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link text-secondary" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-secondary" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>   
+    </nav>
+
+    <!--body-->
+
+    <div class="card" style="margin: 30px; padding: 30px">
+        <div class="card-body">
+            <div class="col-lg-12">
+                <h1 style="color: teal">Contact</h1>
+                <hr class="my-4">
+            <br><br>
+            </div>
+            
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Adriana Capriles">
+                </div> 
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                          
+                <div class="form-group">
+                    <label for="formMessage">Message</label>
+                    <textarea class="form-control" id="formMessage" rows="5"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary" style="background-color: teal; border-color: teal; color: white;">Submit</button>
+
+            </form>
+        </div>
+    </div>
+    
+    <!--footer-->
+    <div class="card-footer" style="color: white; background: darkgray; border-top:teal 5px solid; text-align: center; position: fixed; bottom: 0; width: 100%; height: 77px;">
+        Adriana
+    </div>
+    
+</body>
+</html>

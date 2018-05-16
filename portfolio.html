@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfolio Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+</head>
+
+<body style="background: scroll url(https://www.toptal.com/designers/subtlepatterns/patterns/new_year_background.png);">
+
+    <!--header-->
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="col">
+            <a class="navbar-brand" href="index.html" style="background: teal; color: white; font-size: 48px;padding: 10px">Adriana Capriles</a>    
+        </div>
+        
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link text-secondary" href="index.html">About </a>
+            </li>
+            <li class="nav-item active text-secondary">
+                <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                   <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                </li>
+        </ul>  
+    </nav>
+
+    <!--body-->
+
+    <div class="card" style="margin: 30px; padding: 30px">
+        <div class="card-body">
+            <div class="col-lg-12">
+                <h1 style="color: teal">Portfolio</h1>
+                <hr class="my-4">
+                <br><br>
+                
+                <div class="row">
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="width: 20rem;">
+                        <img src="img/donut.jpg" alt="Donuts" class="card-img-top" width="420" height="420">
+                    <p class="card-text">Donuts</p>
+                    </div><br>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="width: 20rem;">
+                            <img src="img/I-heart-music.jpg" alt="Music" class="card-img-top" width="420" height="420">
+                        <p class="card-text">Music</p>
+                    </div><br>
+                   <div class="card col-xs-12 col-sm-6 col-md-4" style="width: 20rem;">
+                            <img src="img/coffee.jpg" alt="Coffee" class="card-img-top" width="420" height="420">
+                        <p class="card-text">Coffee</p>
+                    </div><br>
+                  </div>
+                  <br><br>
+                  <div class="row">                           
+                    <div class="card col-xs-12 col-sm-6 col-md-4 " style="width: 20rem;">
+                        <img src="img/beach.jpg" alt="LosRoques" class="card-img-top" width="420" height="420">
+                        <p class="card-text">Los Roques</p>
+                    </div><br>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="width: 20rem;">
+                        <img src="img/tenis.jpg" alt="Tennis" class="card-img-top" width="420" height="420">
+                        <p class="card-text">Tennis</p>
+                    </div>       
+                </div>      
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="card-footer" style="color: white; background: darkgray; border-top:teal 5px solid; text-align: center; position: fixed; bottom: 0; width: 100%; height: 77px;">
+        Adriana
+    </div>
+    
+</body>
+</html>
+
+<style>
+  
+    p{
+  /*  position: absolute;
+    bottom: 20px;
+    width: 80%;
+    margin-bottom: 5%; */
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: teal;  
+}
+.card{
+    border: 0;
+    margin: 5px 0;
+}
+    
+</style>
